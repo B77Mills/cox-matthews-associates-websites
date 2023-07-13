@@ -9,6 +9,19 @@ $ const {
   contentMeterState,
 } = out.global;
 
+$ const { cookies } = req;
+$ const getCookieId = (value, type) => {
+  if (!value) return null;
+  const trimmed = `${value.replace(/^"/, '').replace(/"$/, '')}`.trim();
+  if (type === 'anon') {
+    return /^[a-z0-9-]{36}$/i.test(trimmed) ? trimmed : null;
+  }
+  if(type === 'enc') {
+    return /^[a-z0-9]{15}$/i.test(trimmed) ? trimmed : null;
+  }
+  return null;
+};
+
 $ const omedaConfig = site.get('omeda');
 
 <marko-web-document ...input>
@@ -63,6 +76,23 @@ $ const omedaConfig = site.get('omeda');
     />
 
     <${input.head} />
+
+    <marko-web-identity-x-context|{ hasUser, user }|>
+      <if(hasUser && user.id)>
+        <marko-web-gtm-push data={ user_id: user.id } />
+      </if>
+    </marko-web-identity-x-context>
+
+    <!-- Send Encrypted Omeda Id to GTM -->
+    $ const oylEncId = cookies.oly_enc_id ? getCookieId(cookies.oly_enc_id, 'enc') : undefined;
+    <if(oylEncId)>
+      <marko-web-gtm-push data={ oly_enc_id: oylEncId } />
+    </if>
+    <!-- Send Anonomouse Omeda Id to GTM -->
+    $ const oylAnonId = cookies.oly_anon_id ? getCookieId(cookies.oly_anon_id, 'anon') : undefined;
+    <if(oylAnonId)>
+      <marko-web-gtm-push data={ oly_anon_id: oylAnonId } />
+    </if>
 
     <!-- start gtm -->
     <marko-web-gtm-start />
