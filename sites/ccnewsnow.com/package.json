@@ -33,7 +33,7 @@
   "dependencies": {
     "@cox-matthews-associates/package-global": "^4.10.0",
     "@mindful-web/marko-core": "^1.57.0",
-    "@mindful-web/marko-web": "^1.68.5",
+    "@mindful-web/marko-web": "^1.69.0",
     "@mindful-web/marko-web-gam": "^1.57.0",
     "@mindful-web/marko-web-gcse": "^1.57.0",
     "@mindful-web/marko-web-gtm": "^1.57.0",
@@ -42,7 +42,7 @@
     "@mindful-web/marko-web-native-x": "^1.57.0",
     "@mindful-web/marko-web-p1-events": "^1.64.3",
     "@mindful-web/marko-web-reveal-ad": "^1.57.0",
-    "@mindful-web/marko-web-theme-monorail": "^1.68.4",
+    "@mindful-web/marko-web-theme-monorail": "^1.68.6",
     "@mindful-web/marko-web-theme-monorail-magazine": "^1.64.3",
     "@mindful-web/object-path": "^1.57.0",
     "@mindful-web/utils": "^1.57.0",
