@@ -6,12 +6,12 @@ const htmlSitemapPagination = require('@mindful-web/marko-web-html-sitemap/middl
 const contentGating = require('@mindful-web/marko-web-theme-monorail/middleware/content-gating');
 const newsletterModalState = require('@mindful-web/marko-web-theme-monorail/middleware/newsletter-modal-state');
 const MindfulMarkoWebService = require('@mindful-web/mindful/marko-web/middleware/service');
+const paginated = require('@mindful-web/marko-web/middleware/paginated');
 
 const document = require('./components/document');
 const components = require('./components');
 const fragments = require('./fragments');
 const sharedRoutes = require('./routes');
-const paginated = require('./middleware/paginated');
 const redirectHandler = require('./redirect-handler');
 const oembedHandler = require('./oembed-handler');
 const idxRouteTemplates = require('./templates/user');
