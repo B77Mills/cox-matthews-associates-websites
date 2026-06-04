@@ -54,7 +54,7 @@ $ const headerColClass = promos ? `col-lg-${4 - promos.slice(1).length}` : "col-
         </div>
       </div>
     </if>
-    <div class=`${headerColClass} site-navbar__center`>
+    <div class=`${headerColClass} site-navbar__center center-stack`>
       <theme-site-navbar-brand title=`${config.website("name")} Homepage`>
         <theme-site-navbar-logo
           alt=config.website("name")
@@ -62,6 +62,12 @@ $ const headerColClass = promos ? `col-lg-${4 - promos.slice(1).length}` : "col-
           srcset=site.getAsArray("logos.navbar.srcset").join(",")
         />
       </theme-site-navbar-brand>
+<div style="margin-top:8px;text-align:center;">
+<a class="animated-cta" href="https://editions.mydigitalpublication.com/publication/?i=865870&p=1&view=issueViewer" target="_blank">
+  <span style="color:#ff9900;" class="cta-top">June 4 Edition - Arthur Ashe Jr. Sports Scholars & More</span>
+  <span style="color:#88ceff;" class="cta-main"><b>Click here for exclusive access!</b></span>
+</a>
+</div>
     </div>
     <div class=`${headerColClass} site-navbar__right`>
       <if(site.get('idxNavItems.enable'))>
