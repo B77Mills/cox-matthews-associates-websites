@@ -103,7 +103,7 @@ $ const withRecommended = defaultValue(input.withRecommended, true);
             <if(displaySocialShare)>
               <marko-web-social-sharing
                 path=content.siteContext.path
-                providers=["print", "facebook", "linkedin", "twitter", "pinterest"]
+                providers=["print", "facebook", "linkedin", "twitter", "pinterest", "google"]
                 print-path=`/print/content/${content.id}`
               />
             </if>
@@ -275,7 +275,7 @@ $ const withRecommended = defaultValue(input.withRecommended, true);
                 <if(displaySocialShare)>
                   <marko-web-social-sharing
                     path=content.siteContext.path
-                    providers=["print", "facebook", "linkedin", "twitter", "pinterest"]
+                    providers=["print", "facebook", "linkedin", "twitter", "pinterest", "google"]
                     print-path=`/print/content/${content.id}`
                   />
                 </if>
