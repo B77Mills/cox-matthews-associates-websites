@@ -119,12 +119,19 @@ $primary: #0087ca;
     opacity: 0;
     pointer-events: none;
     transition: max-height 0.3s ease, opacity 0.2s ease;
+
   }
+
+
   .site-menu--open {
     max-height: 500px;
     opacity: 1;
     pointer-events: auto;
+    overflow:scroll;
+
   }
+
+
 
 
   .animated-cta {

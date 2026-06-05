@@ -98,7 +98,7 @@ $ const rootAlias = 'awards-honors/arthur-ashe';
         name="website-section"
         params={ alias, queryFragment: sectionWithChilderenFragment }
       >
-        $ const year = 2025;
+        $ const year = 2026;
         $ const [yearSection] = getAsArray(node, "children.edges").map(({ node }) => node).filter(({ name })=> parseInt(name) === year);
         <if(yearSection)>
           <div class="row">
