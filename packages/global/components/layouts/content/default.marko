@@ -105,6 +105,7 @@ $ const withRecommended = defaultValue(input.withRecommended, true);
                 path=content.siteContext.path
                 providers=["print", "facebook", "linkedin", "twitter", "pinterest", "google"]
                 print-path=`/print/content/${content.id}`
+                ssr=true
               />
             </if>
             <if(content.embedCode)>
@@ -277,6 +278,7 @@ $ const withRecommended = defaultValue(input.withRecommended, true);
                     path=content.siteContext.path
                     providers=["print", "facebook", "linkedin", "twitter", "pinterest", "google"]
                     print-path=`/print/content/${content.id}`
+                    ssr=true
                   />
                 </if>
               </else>
