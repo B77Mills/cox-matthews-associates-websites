@@ -38,7 +38,8 @@ $ const { primarySection } = content;
             <marko-web-content-body block-name=blockName obj=content />
             <marko-web-social-sharing
               url=content.siteContext.canonicalUrl
-              providers=["facebook", "linkedin", "twitter", "pinterest"]
+              providers=["facebook", "linkedin", "twitter", "pinterest", "google"]
+              ssr=true
             />
           </theme-page-contents>
         </div>
