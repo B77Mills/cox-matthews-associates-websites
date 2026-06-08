@@ -47,7 +47,6 @@ jobs:
   build-sites:
     needs: [version]
     uses: parameter1/actions/.github/workflows/website-build-push-test.yml@main
-    secrets: inherit
     strategy:
       matrix:
         ###############################################
