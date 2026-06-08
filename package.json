@@ -16,12 +16,14 @@
     "generate-gha-workflows": "mindful-web-website generate-gha-workflows",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "upgrade-mindful-deps": "mindful-web-dependencies upgrade ./"
   },
   "devDependencies": {
+    "@mindful-web/browserslist-config": "^1.0.0",
+    "@mindful-web/dependency-tool": "^1.57.0",
     "@mindful-web/eslint": "^1.0.0",
     "@mindful-web/marko-compiler": "^1.57.0",
-    "@mindful-web/browserslist-config": "^1.0.0",
     "lerna": "^6.5.1"
   },
   "engines": {
