@@ -981,10 +981,10 @@
   resolved "https://registry.yarnpkg.com/@mindful-web/utils/-/utils-1.57.0.tgz#cf9264a26143bd08f216edf0fcbe6d2bf9852418"
   integrity sha512-juuhtK+9RQOe4iFMVm9D3D0I6Nmdn7b9z2GrfLY4e7pIcz+YMCmGw5w2ST0xXkMaKr6s66WbOLA8k+GNQyhA5g==
 
-"@mindful-web/web-cli@^1.71.2":
-  version "1.71.2"
-  resolved "https://registry.yarnpkg.com/@mindful-web/web-cli/-/web-cli-1.71.2.tgz#57345d539f43c2a715c5db71db773e8082b1b389"
-  integrity sha512-AZKHw/KT1DuVJb4dy/FouQFvZs+7M772i8TljAJz4kRzsNab7IzLo6qtkAQV1Lo1dMGigTUOc4dMO9k/XqAvIQ==
+"@mindful-web/web-cli@^1.71.4":
+  version "1.71.4"
+  resolved "https://registry.yarnpkg.com/@mindful-web/web-cli/-/web-cli-1.71.4.tgz#967f9de5132e5551bee04988ac06d56a53d65537"
+  integrity sha512-ckqFRiAPcymR6+k4jgSHnDfGSlJR0xQrU2AE2/0PYjfmQYO68MrQ+0Nt2Xk+tF7Aa9OnG/7rPKQ2yTVgm3pN9w==
   dependencies:
     "@fullhuman/postcss-purgecss" "^5.0.0"
     "@mindful-web/marko-compiler" "^1.57.0"

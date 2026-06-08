@@ -46,7 +46,7 @@
     "@mindful-web/marko-web-theme-monorail-magazine": "^1.64.3",
     "@mindful-web/object-path": "^1.57.0",
     "@mindful-web/utils": "^1.57.0",
-    "@mindful-web/web-cli": "^1.71.2",
+    "@mindful-web/web-cli": "^1.71.4",
     "graphql": "^14.5.4",
     "graphql-tag": "^2.10.1"
   }
