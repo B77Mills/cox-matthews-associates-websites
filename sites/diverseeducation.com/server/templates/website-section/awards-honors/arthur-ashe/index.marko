@@ -121,7 +121,7 @@ $ const rootAlias = 'awards-honors/arthur-ashe';
               name="website-section"
               params={ alias: 'awards-honors/arthur-ashe', queryFragment: sectionWithChilderenFragment }
             >
-            $ const year = 2025; //current/active year
+            $ const year = 2024; //current/active year
             $ const children = getAsArray(node, "children.edges").map(({ node }) => node).filter(({ name })=> parseInt(name) <= year);
             <div class="row">
               <div class="col-md-6">
@@ -161,8 +161,8 @@ $ const rootAlias = 'awards-honors/arthur-ashe';
             </div>
             <div class="row mt-block">
               <div class="col">
-                <a class="btn btn-primary" target="_blank" href="https://www.diverseeducation.com/awards-honors/arthur-ashe/2026/sport-winners">
-                  <b style="color:white">2026 Sport Winners</b>
+                <a class="btn btn-primary" target="_blank" href="https://www.diverseeducation.com/awards-honors/arthur-ashe/2025/sport-winners">
+                  <b style="color:white">2025 Sport Winners</b>
                 </a>
               </div>
             </div>
