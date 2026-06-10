@@ -1,6 +1,6 @@
 {
   "name": "@cox-matthews-associates/diverseeducation.com",
-  "version": "4.12.1",
+  "version": "4.12.2",
   "author": "Brandon Krigbaum <brandon@parameter1.com>",
   "repository": "https://github.com/parameter1/cox-matthews-associates-websites/tree/master/sites/diverseeducation.com",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "win32"
   ],
   "dependencies": {
-    "@cox-matthews-associates/package-global": "^4.12.1",
+    "@cox-matthews-associates/package-global": "^4.12.2",
     "@mindful-web/marko-core": "^1.70.3",
     "@mindful-web/marko-web": "^1.71.1",
     "@mindful-web/marko-web-gam": "^1.57.0",
