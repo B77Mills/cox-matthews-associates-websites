@@ -1,6 +1,6 @@
 {
   "name": "@cox-matthews-associates/ccnewsnow.com",
-  "version": "4.12.0",
+  "version": "4.12.2",
   "author": "Brandon Krigbaum <brandon@parameter1.com>",
   "repository": "https://github.com/parameter1/cox-matthews-associates-websites/tree/master/sites/ccnewsnow.com",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "win32"
   ],
   "dependencies": {
-    "@cox-matthews-associates/package-global": "^4.12.0",
+    "@cox-matthews-associates/package-global": "^4.12.2",
     "@mindful-web/marko-core": "^1.70.3",
     "@mindful-web/marko-web": "^1.71.1",
     "@mindful-web/marko-web-gam": "^1.57.0",
@@ -42,7 +42,7 @@
     "@mindful-web/marko-web-native-x": "^1.57.0",
     "@mindful-web/marko-web-p1-events": "^1.64.3",
     "@mindful-web/marko-web-reveal-ad": "^1.57.0",
-    "@mindful-web/marko-web-theme-monorail": "^1.70.5",
+    "@mindful-web/marko-web-theme-monorail": "^1.71.9",
     "@mindful-web/marko-web-theme-monorail-magazine": "^1.64.3",
     "@mindful-web/object-path": "^1.57.0",
     "@mindful-web/utils": "^1.57.0",
