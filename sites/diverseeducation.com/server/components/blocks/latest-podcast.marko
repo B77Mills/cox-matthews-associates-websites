@@ -108,7 +108,7 @@ $ const withVideo = defaultValue(input.withVideo, false);
             $ const matches = nodes[0].embedCode.match(/src\=\"(.+?)\"/) || ['this is', 'temporary'];
             $ if (matches.length) {
               const [, urlMatch] = matches;
-              const urlMatchAsURL = new URL('https://www.youtube.com/embed/drw_orgZy5Y?si=Fw8J4Zewt-wG-sVJ');
+              const urlMatchAsURL = new URL('https://www.youtube.com/embed/h25K599_Kzc');
               if (!urlMatchAsURL.searchParams.has('mute', '1')) {
                 urlMatchAsURL.searchParams.set('mute', '1');
               }
@@ -118,7 +118,7 @@ $ const withVideo = defaultValue(input.withVideo, false);
               if (!urlMatchAsURL.searchParams.has('rel', '0')) {
                 urlMatchAsURL.searchParams.set('rel', '0');
               }
-              urlMatchAsURL.searchParams.set('playlist', 'drw_orgZy5Y');
+              urlMatchAsURL.searchParams.set('playlist', 'h25K599_Kzc');
               urlMatchAsURL.searchParams.set('loop', '1');
               nodes[0].embedCode = nodes[0].embedCode.replace(urlMatch, String(urlMatchAsURL));
               nodes[0].embedCode = nodes[0].embedCode.replace(/height=\"[0-9]+\"/, 'height="300"')
