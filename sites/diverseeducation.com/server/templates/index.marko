@@ -66,7 +66,7 @@ $ const { id, alias, name, pageNode } = input;
   $ const publicationIds = site.get("magazine.publicationIds");
   <if(publicationIds.length)>
     <@section>
-      <theme-magazine-issues-block publication-id=publicationIds[0] />
+      <theme-magazine-issues-block publication-id=publicationIds[0] title="Magazine" />
     </@section>
   </if>
   <@section>
