@@ -27,10 +27,10 @@ $ const { req, site } = out.global;
           <theme-content-page-breadcrumbs section=primarySection />
 
           <div class="row">
-            <global-sponsored-section-name-logo section=primarySection modifiers=["section-page"] class="col-lg-5" sectionPage=false />
+            <theme-sponsored-section-name-logo section=primarySection modifiers=["section-page"] class="col-lg-5" sectionPage=false />
             $ const labels = getAsArray(content, "labels");
             <for|label| of=labels>
-              <global-sponsored-label-logo logo-label=label prefix="Presented By" modifiers=["content-page"] />
+              <theme-sponsored-label-logo logo-label=label prefix="Presented By" modifiers=["content-page"] />
             </for>
           </div>
 
