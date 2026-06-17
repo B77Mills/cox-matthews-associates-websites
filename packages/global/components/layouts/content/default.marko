@@ -199,6 +199,7 @@ $ const withRecommended = defaultValue(input.withRecommended, true);
                 <marko-web-content-body block-name=blockName modifiers=bodyModifiers attrs={ style: "display: none;" }  obj=content modifiers=["ld-json"] />
               </else-if>
               <else>
+                <theme-content-geo-summary-block content=content />
                 <theme-body-with-injection
                   content=content
                   aliases=aliases
