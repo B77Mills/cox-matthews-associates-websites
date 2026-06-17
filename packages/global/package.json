@@ -17,7 +17,7 @@
     "@mindful-web/image": "^1.57.0",
     "@mindful-web/inflector": "^1.0.0",
     "@mindful-web/marko-core": "^1.70.3",
-    "@mindful-web/marko-web": "^1.71.1",
+    "@mindful-web/marko-web": "^1.72.3",
     "@mindful-web/marko-web-deferred-script-loader": "^1.57.0",
     "@mindful-web/marko-web-gam": "^1.57.0",
     "@mindful-web/marko-web-gcse": "^1.57.0",
