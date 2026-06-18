@@ -7,6 +7,9 @@ const factory = ({ useLinkInjectedBody = false } = {}) => {
       name
       teaser(input: { useFallback: false, maxLength: null })
       labels
+      geoSummary
+      geoKeyFacts
+      geoSummaryDisplay
       body(input: { useLinkInjectedBody: ${useLinkInjectedBody} })
       published
       updated
