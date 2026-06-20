@@ -1,5 +1,5 @@
 const htmlSitemap = require('@mindful-web/marko-web-html-sitemap/routes');
-const renderBlock = require('@mindful-web/marko-web-theme-monorail/routes/render-block');
+const defaultRoutes = require('@mindful-web/marko-web-theme-monorail/routes');
 const taxonomy = require('@mindful-web/marko-web-theme-monorail/routes/taxonomy');
 const magazine = require('@mindful-web/marko-web-theme-monorail-magazine/routes');
 const search = require('@mindful-web/marko-web-theme-monorail/routes/search');
@@ -45,8 +45,8 @@ module.exports = (app, siteConfig) => {
   // Redirects
   redirects(app);
 
-  // Remote component/block loader
-  renderBlock(app);
+  // Theme-level default routes (e.g. email-preview, render-block)
+  defaultRoutes(app);
 
   // Search routes
   search(app, siteConfig);

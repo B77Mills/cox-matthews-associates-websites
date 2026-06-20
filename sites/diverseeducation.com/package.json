@@ -42,7 +42,7 @@
     "@mindful-web/marko-web-native-x": "^1.57.0",
     "@mindful-web/marko-web-p1-events": "^1.64.3",
     "@mindful-web/marko-web-reveal-ad": "^1.57.0",
-    "@mindful-web/marko-web-theme-monorail": "^1.72.1",
+    "@mindful-web/marko-web-theme-monorail": "^1.73.0",
     "@mindful-web/marko-web-theme-monorail-magazine": "^1.64.3",
     "@mindful-web/object-path": "^1.57.0",
     "@mindful-web/utils": "^1.57.0",
