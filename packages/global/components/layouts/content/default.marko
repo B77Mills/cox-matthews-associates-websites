@@ -160,6 +160,7 @@ $ const withRecommended = defaultValue(input.withRecommended, true);
                     block-name=blockName
                     selector=bodyId
                     preventHTMLInjection=true
+                    track-scroll-depth=true
                   />
                 </else>
               </if>
@@ -207,6 +208,7 @@ $ const withRecommended = defaultValue(input.withRecommended, true);
                   preventHTMLInjection=!shouldInjectAds
                   lazyload-first-image=lazyloadFirstImage
                   modifiers=bodyModifiers
+                  track-scroll-depth=true
                 />
                 <if(content.transcript)>
                   <div id=`transcript-${id}` class="page-contents__content-transcript">
