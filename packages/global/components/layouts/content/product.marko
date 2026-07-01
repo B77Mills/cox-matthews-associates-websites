@@ -45,6 +45,10 @@ $ const { req, site } = out.global;
           <theme-page-contents|{ blockName }| attrs={ "data-gallery-id": id }>
             $ const bodyId = `content-body-${content.id}`;
             <marko-web-content-body block-name=blockName obj=content attrs={ id: bodyId } />
+            <marko-web-p1-events-track-content-scroll-depth
+              content=content
+              selector=`#content-body-${content.id}`
+            />
           </theme-page-contents>
         </div>
         <${input.afterBody}
